@@ -4,7 +4,7 @@ clothes.src = 'bustier.png'
 
 
 Promise.all([
-  faceapi.nets.tinyFaceDetector.loadFromUri('/models'),
+  faceapi.nets.tinyFaceDetector.loadFromUri('http://gitgub.insung0/ARdressor/models'),
 ]).then(startVideo)
 
 function startVideo() {
